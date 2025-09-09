@@ -4,7 +4,7 @@ A deep, contemplative dark theme inspired by the philosophical concept of mement
 
 The theme serves as a constant reminder - remember death; remember life.
 
-<img width="981" height="590" alt="showcase" src="https://github.com/user-attachments/assets/278559ef-548a-4425-93d7-f4a2cdb714b1" />
+<img width="981" height="590" alt="showcase" src="https://github.com/user-attachments/assets/02ccf1ca-55f2-43cc-9de9-2e9b0a6804fa" />
 
 
 
