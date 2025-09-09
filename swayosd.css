@@ -1,0 +1,53 @@
+@define-color background rgba(10, 14, 20, 0.95);
+@define-color foreground #c5d1eb;
+@define-color accent #5ccfe6;
+@define-color border #1e2733;
+@define-color selected #2a3747;
+
+window {
+    background: @background;
+    border-radius: 12px;
+    border: 2px solid @accent;
+    padding: 15px;
+}
+
+#container {
+    background: transparent;
+}
+
+#title {
+    color: @foreground;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+progressbar {
+    min-height: 20px;
+    border-radius: 10px;
+    background-color: @selected;
+}
+
+progressbar progress {
+    background-color: @accent;
+    border-radius: 10px;
+    min-height: 20px;
+}
+
+progressbar trough {
+    background-color: @selected;
+    border-radius: 10px;
+    min-height: 20px;
+}
+
+#icon {
+    color: @accent;
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+#value {
+    color: @foreground;
+    font-size: 14px;
+    font-weight: bold;
+}
