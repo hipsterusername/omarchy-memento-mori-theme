@@ -1,17 +1,17 @@
 return {
 	{
-		"wnkz/monoglow.nvim",
-		lazy = false,
+		"hipsterusername/memento-mori.nvim",
+		name = "memento-mori",
 		priority = 1000,
-		opts = {
-			-- Change the "glow" color
-			on_colors = function(colors)
-				colors.glow = "#5ccfe6"
-			end,
-		},
-		config = function(_, opts)
-			require("monoglow").setup(opts)
-			vim.cmd("colorscheme monoglow")
+		config = function()
+			require("memento-mori").setup()		
+			vim.cmd.colorscheme("memento-mori")
 		end,
+	},
+	{
+		"LazyVim/LazyVim",
+		opts = {
+			colorscheme = "memento-mori",
+		},
 	},
 }
